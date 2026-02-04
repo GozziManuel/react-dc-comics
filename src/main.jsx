@@ -11,6 +11,9 @@ import "./assets/css/index.css";
 // root
 import App from "./App.jsx";
 
+// FONT
+import "@fontsource-variable/open-sans";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
