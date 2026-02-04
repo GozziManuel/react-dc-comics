@@ -62,3 +62,21 @@ ul {
   background-repeat: no-repeat;
   background-position: right;
 }
+
+/* footerContainer */
+.footerContainer {
+  background-color: rgba(48, 48, 48);
+}
+.footerList {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: rgba(8, 117, 212);
+  font-weight: bold;
+  padding-top: 10px;
+}
+.myButton {
+  background-color: transparent;
+  color: white;
+  border: solid rgba(8, 117, 212);
+}
