@@ -1,7 +1,7 @@
 export default function mainSection() {
   return (
     <>
-      <div className="container "></div>
+      <div class="container "></div>
     </>
   );
 }

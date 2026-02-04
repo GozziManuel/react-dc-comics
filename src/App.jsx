@@ -1,16 +1,16 @@
 import Header from "./assets/components/header";
 import Main from "./assets/components/main";
-import blueSection from "./assets/components/sectionBlue";
 import MainSection from "./assets/components/MainSection";
 import Footer from "./assets/components/footer";
+import BlueSection from "./assets/components/Blue";
 
 export default function App() {
   return (
     <>
       <Header />
       <Main />
+      <BlueSection />
       <MainSection />
-      <blueSection />
       <Footer />
     </>
   );

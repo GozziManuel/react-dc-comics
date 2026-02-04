@@ -1,8 +1,8 @@
 export default function Main() {
   return (
     <>
-      <div className="myContainer">
-        <div className="container">
+      <div class="myContainer">
+        <div class="container">
           <p class="Maintext">--&gt; Content goes here &lt;--</p>
         </div>
       </div>
