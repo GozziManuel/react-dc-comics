@@ -35,3 +35,25 @@ body {
   display: flex;
   gap: 70px;
 }
+/* THIRD SECTION */
+ul {
+  list-style-type: none;
+}
+.listContainer {
+  background-image: url(../../../public/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comicsList {
+  color: rgba(108, 112, 114);
+  font-size: 10px;
+}
+.comicsTitle {
+  color: white;
+  font-size: 20px;
+}
+.flexList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
