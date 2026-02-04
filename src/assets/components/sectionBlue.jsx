@@ -1,7 +1,7 @@
 export default function blueSection() {
   return (
     <>
-      <div className="container myContainer"></div>
+      <div className="container "></div>
     </>
   );
 }

@@ -1,7 +1,11 @@
 export default function Main() {
   return (
     <>
-      <h1>Sono il main</h1>
+      <div className="myContainer">
+        <div className="container">
+          <p class="Maintext">--&gt; Content goes here &lt;--</p>
+        </div>
+      </div>
     </>
   );
 }
