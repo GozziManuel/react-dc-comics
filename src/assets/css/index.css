@@ -57,3 +57,8 @@ ul {
   flex-direction: column;
   gap: 4px;
 }
+.sndBackground {
+  background-image: url(../../../public/dc-logo-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}

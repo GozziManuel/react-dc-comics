@@ -1,8 +1,8 @@
 export default function mainSection() {
   return (
     <>
-      <div class="listContainer">
-        <div class="container d-flex py-5">
+      <div class="listContainer ">
+        <div class="container d-flex py-5 sndBackground">
           <div>
             <ul class="flexList">
               <li>
