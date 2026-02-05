@@ -180,13 +180,18 @@ export default function Main() {
       <div class="jumbotron"></div>
       <div className="myContainer">
         <div class="container">
-          <div class="row">
+          <button class="currentbutton btn btn-primary px-5 fw-bold">
+            CURRENT SERIES
+          </button>
+
+          <div class="row justify-content-center">
             {comics.map((element) => (
               <div key={element.key} class="col-2 cards">
                 <img class="cardImg" src={element.thumb} alt="thumb" />
                 <p class="cardText">{element.series}</p>
               </div>
             ))}
+            <button class="loadbutton btn btn-primary mt-5">LOAD MORE</button>
           </div>
         </div>
       </div>

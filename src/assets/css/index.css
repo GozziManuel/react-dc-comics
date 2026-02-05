@@ -25,10 +25,22 @@ body {
 /* CARDS */
 .cardImg {
   width: 100%;
-  height: 100%;
+  height: 86%;
+  object-fit: cover;
 }
 .cards {
   color: white;
+}
+.loadbutton {
+  width: 20%;
+  border-radius: 0;
+  font-weight: bold;
+}
+.currentbutton {
+  position: relative;
+  top: -91px;
+  font-size: 40px;
+  border-radius: 0;
 }
 
 /* SECOND CONTAINER */
