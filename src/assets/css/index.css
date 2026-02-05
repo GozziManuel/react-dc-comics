@@ -12,6 +12,11 @@ body {
   background-color: rgba(28, 28, 28);
   padding: 50px;
 }
+.jumbotron {
+  background-image: url(../../../public/jumbotron.jpg);
+  padding-bottom: 400px;
+  background-repeat: no-repeat;
+}
 .Maintext {
   color: white;
   font-size: 25px;
