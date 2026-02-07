@@ -11,13 +11,17 @@ export default function comicsList({ comics }) {
           </button>
 
           <div class="row justify-content-center">
-            {comics.map((element) => (
-              <ComicCard
-                key={element.id}
-                thumb={element.thumb}
-                series={element.series}
-              />
-            ))}
+            {comics.map((element) => {
+              console.log();
+
+              return (
+                <ComicCard
+                  key={element.id}
+                  thumb={element.thumb}
+                  series={element.series}
+                />
+              );
+            })}
             <button class="loadbutton btn btn-primary mt-5">LOAD MORE</button>
           </div>
         </div>
